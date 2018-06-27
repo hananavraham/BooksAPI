@@ -15,13 +15,13 @@ class Header extends Component {
     render() {
         return (
             <div style={this.header}>
-                <NavLink exact to="/getAllBooks" activeStyle={this.active}>
+                <NavLink exact to="/2017-2018/dcs/dev_36/client_app/getAllBooks" activeStyle={this.active}>
                 GetAllBooks
                 </NavLink>
-                <NavLink to="/getBooksByID" activeStyle={this.active}>
+                <NavLink to="/2017-2018/dcs/dev_36/client_app/getBooksByID" activeStyle={this.active}>
                 Get Book By ID
                 </NavLink>
-                <NavLink to="/getBooksByPrice" activeStyle={this.active}>
+                <NavLink to="/2017-2018/dcs/dev_36/client_app/getBooksByPrice" activeStyle={this.active}>
                 Get Book By Price
                 </NavLink>
             </div>
